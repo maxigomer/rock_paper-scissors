@@ -3,9 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script> 
 </head>
 <body>
-   <script src="script.js"></script> 
+    <h1>Rock Paper Scissors</h1>
+    <div id="game">
+        <div id="player" class="competitor">
+            <div id="palyer-image" class="competitorImage">
+                <img src="images/player.png">
+            </div>
+            <div id="buttonsPlayer" class="buttons">
+                <img src="images/rock.png" id="buttonRock">
+                <img src="images/paper.png" id="buttonPaper">
+                <img src="images/scissors.png" id="buttonScissors">
+            </div>
+        </div>
+
+        <div id="resultContainer">
+            <div id="playerChoice">
+
+            </div>
+
+            <div id="result">
+
+            </div>
+
+            <div id="computerChoice">
+
+            </div>
+        </div>
+        
+        <div id="computer" class="competitor">
+            <div id="computer-image" class="competitorImage">
+                <img src="images/computer.png">
+            </div>
+            <div id="buttonsComputer" class="buttons">
+                <img src="images/rock.png">
+                <img src="images/paper.png">
+                <img src="images/scissors.png">
+            </div>
+        </div>
+
+    </div>
 </body>
 </html>
